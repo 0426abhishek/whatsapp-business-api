@@ -1,6 +1,6 @@
 # Whatsapp Business API
 
-A simple nodejs script to send text messages to the user using whatsapp service.
+Implementation node js script to send text messages and create template to the user using whatsapp service.
 
 ---
 

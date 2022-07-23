@@ -9,11 +9,11 @@ const {
 } = process.env;
 
 const url = {
-  bulkOptIn: `https://api.gupshup.io/sm/api/v1/app/opt/in/${APP_NAME}`,
-  getTemplatesList: `https://api.gupshup.io/sm/api/v1/template/list/${APP_NAME}`,
-  optInUser: `https://api.gupshup.io/sm/api/v1/app/opt/in/${APP_NAME}`,
-  sendTextMessage: 'https://api.gupshup.io/sm/api/v1/msg',
-  sendTemplateMessage: 'http://api.gupshup.io/sm/api/v1/template/msg'
+  bulkOptIn: `https://api.facebook.io/sm/api/v1/app/opt/in/${APP_NAME}`,
+  getTemplatesList: `https://api.facebook.io/sm/api/v1/template/list/${APP_NAME}`,
+  optInUser: `https://api.facebook.io/sm/api/v1/app/opt/in/${APP_NAME}`,
+  sendTextMessage: 'https://api.facebook.io/sm/api/v1/msg',
+  sendTemplateMessage: 'http://api.facebook.io/sm/api/v1/template/msg'
 };
 
 const config = {
